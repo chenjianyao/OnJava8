@@ -32,7 +32,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: '精品',
             items: [
               { text: 'Java编程思想', link: '/pages/5a259f/' },
-			  { text: 'Effective Java', link: '/pages/5a259f/' },
+			  { text: 'Effective Java', link: '/pages/521774/' },
             ],
           }
         ],
