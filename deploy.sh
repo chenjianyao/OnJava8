@@ -11,10 +11,10 @@ cd docs/.vuepress/dist
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:chenjianyao/chenjianyao.github.io.git
+  githubUrl=git@github.com:chenjianyao/OnJava8.git
 else
   msg='auto deploy by github actions'
-  githubUrl=https://chenjianyao:${GITHUB_TOKEN}@github.com/chenjianyao/chenjianyao.github.io.git
+  githubUrl=https://chenjianyao:${GITHUB_TOKEN}@github.com/chenjianyao/OnJava8.git
   git config --global user.name "chenjianyao"
   git config --global user.email "jxjjdccj@126.com"
 fi
