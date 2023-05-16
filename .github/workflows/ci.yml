@@ -28,7 +28,6 @@ jobs:
         uses: actions/setup-node@v3 # 作用：安装nodejs
         with:
           node-version: ${{ matrix.node-version }} # 版本
-          cache: 'npm'
       # 3.deploy
       - name: Deploy # 步骤3
         env: # 设置环境变量
